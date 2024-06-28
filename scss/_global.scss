@@ -41,13 +41,18 @@ h2 {
 
 .text-link {
   color: $pink;
+  text-decoration: underline;
+  &:hover {
+    color: $purple;
+    font-weight: bold;
+  }
 }
 
 .list-social-icons {
   a {
-    color: $gray-700;
+    color: $primary;
     &:hover {
-      color: $primary;
+      color: $purple;
     }
     .fa-lg {
       font-size: 1.75rem;

@@ -39,13 +39,18 @@ h2 {
 
 .text-link {
   color: #e83e8c;
+  text-decoration: underline;
+}
+.text-link:hover {
+  color: #6f42c1;
+  font-weight: bold;
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #112565;
 }
 .list-social-icons a:hover {
-  color: #112565;
+  color: #6f42c1;
 }
 .list-social-icons a .fa-lg {
   font-size: 1.75rem;
